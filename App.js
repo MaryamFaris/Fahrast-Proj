@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-import MyCard from "./components/my-card";
+import MyOrders from './components/orders';
+
 function App() {
   return (
-   <MyCard></MyCard>
+   <MyOrders></MyOrders>
 
   );
 }
