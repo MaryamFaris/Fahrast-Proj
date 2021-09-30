@@ -1,35 +1,76 @@
 .card-container{
-    width:300px;
-    box-shadow: 0px 0px 15px -5px;
-    transition: 0.3s;
-    width: 400px;
-    height: 320px;
-    top: 187px;
-    background: #FFFFFF;
+    margin: 35px;
+    width: 335px;
+    height: 305px;
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+    border: black;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+    background: #FFFFFF;
     }
     
     .card-container:hover{
         transform:scale(1.1) ;
-        box-shadow: 0px 0px 15px 0px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(70, 64, 64, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     }
 
 .orderInfo{
-    text-align: center;
+    text-align: right;
+    margin-right: 25px;
 }
+.listName {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+}
+
+li { color: gray;
+    direction:rtl;
+}
+
 .bookInfo{
     text-align: left;
     margin: 20px;
+    font-family: Arial;
+font-size: 14px;
+line-height: 20px;
+color: #7A7A7A;
 
+}
+.bookTitle{
+    font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: rgba(54, 54, 54, 0.9);
 }
 .flexInfo{
     display: flex;
+    
 }
 
 .bookImg{
-    height: 100px;
-    width: 100px;
+    width: 88px;
+height: 141px;
     background-color: red;
-    top: 0px;
-    margin: 20px;
+    margin: 10px;
+}
+.icon{
+    margin: 3px;
+    background: #FFFFFF;
+    padding: 0;
+    border: none;
+}
+.icon:hover{
+    transform:scale(1.1) ;
+    box-shadow: 0px 0px 15px 0px;
 }
