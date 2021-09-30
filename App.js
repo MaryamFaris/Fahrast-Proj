@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import MyOrders from './components/orders';
+import MyCard from './components/my-card';
 
 function App() {
   return (
-   <MyOrders></MyOrders>
+   <MyCard></MyCard>
 
   );
 }
